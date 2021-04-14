@@ -54,23 +54,24 @@
     font-size: 20px;
     outline: none;
     padding: 12px;
-    transition: all 0.3s;
-}
-
-.filme-info button:hover{
+  }
+  
+  .filme-info button:hover{
     background-color: brown;
+    transition: all 0.3s;
     color: #fff;
-}
-.filme-info button:active{
-    background-color: #a52a2aad;
+  }
+  .filme-info button:active{
+    background-color: #a52a2acb;
     transform: translateY(2px);
     color: #fff;
-}
+  }
 
 .filme-info a{
     text-decoration: none;
     color: #000;
-}
-.filme-info a{
+  }
+  .filme-info a:hover{
+    transition: all 0.3s;
     color: #fff;
 }
