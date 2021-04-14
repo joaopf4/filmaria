@@ -1,0 +1,76 @@
+.balls {
+    width: 6em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+  .balls div {
+    width: 0.8em;
+    height: 0.8em;
+    margin-top: 200px;
+    border-radius: 50%;
+    background-color: brown;
+    transform: translateY(-200%);
+    animation: wave 1s ease-in-out alternate infinite;
+}
+  
+  .balls div:nth-of-type(1) {
+    animation-delay: -0.6s;
+}
+  
+  .balls div:nth-of-type(2) {
+    animation-delay: -0.4s;
+}
+  
+  @keyframes wave {
+    from {
+      transform: translateY(-200%);
+    }
+    to {
+      transform: translateY(200%);
+    }
+}
+
+
+.filme-info{
+      display: flex;
+      flex-direction: column;
+      max-width: 900px;
+}
+.filme-info p{
+    width: 80%;
+}
+.filme-info img{
+    border-radius: 20px;
+}
+.filme-info button{
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.3s;
+}
+
+.filme-info button:hover{
+    background-color: brown;
+    color: #fff;
+}
+.filme-info button:active{
+    background-color: #a52a2aad;
+    transform: translateY(2px);
+    color: #fff;
+}
+
+.filme-info a{
+    text-decoration: none;
+    color: #000;
+}
+.filme-info a{
+    color: #fff;
+}
