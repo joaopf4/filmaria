@@ -16,3 +16,6 @@ to install dependencies, and so then you run:
 ### `npm start`
 or 
 ### `yarn start`
+
+
+![c26mPG64F5](https://user-images.githubusercontent.com/54486349/114939999-8fdd1800-9e17-11eb-9e7e-09aa5dc50c14.gif)
