@@ -60,9 +60,7 @@ export default function Filme(){
     }
     return(
         <div className="filme-info">
-            <h1>
-                {filme.nome}
-            </h1>
+            <h1>{filme.nome}</h1>
             <img src={filme.foto} alt={filme.nome} />
             <h3>Sinopse</h3>
             <p>{filme.sinopse}</p>
